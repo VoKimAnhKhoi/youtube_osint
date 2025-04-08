@@ -1,0 +1,11 @@
+# Tạo môi trường ảo
+python -m venv venv
+
+# Kích hoạt môi trường ảo
+# Trên Windows
+venv\Scripts\activate
+cài đặt gói cần thiết
+pip install google-api-python-client youtube-transcript-api transformers python-telegram-bot
+pip install tensorflow
+pip install torch torchvision torchaudio
+pip install tf-keras  
