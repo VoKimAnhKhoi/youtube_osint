@@ -24,12 +24,12 @@ except ImportError:
                            "Sử dụng lệnh 'pip install tensorflow' hoặc 'pip install torch'.")
 
 # YouTube API
-youtube_api_key = "AIzaSyA9NwSAHZTaRgEBag5k1R1uE7qZRivJawg"  # Thay thế bằng API key của bạn
+youtube_api_key = ""  # Thay thế bằng API key của bạn
 youtube = build("youtube", "v3", developerKey=youtube_api_key)
 
 # Telegram Bot
-telegram_token = "7604280329:AAEy-YjFSNzIiMclbKPtB9HqPVfd_cVMRX0"  # Thay thế bằng token của bạn
-telegram_chat_id = "-4792658239"  # Thay thế bằng chat ID của bạn
+telegram_token = ""  # Thay thế bằng token của bạn
+telegram_chat_id = ""  # Thay thế bằng chat ID của bạn
 bot = Bot(token=telegram_token)
 
 # Hugging Face summarization pipeline
